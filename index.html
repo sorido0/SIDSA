@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styler.css">
-   
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <title>SIDSA</title>
 </head>
 
 <body>
-    <header>
+    <header id="inicio">
         <nav>
             <div class="logo">
                 <img src="./img/logo.jpeg" alt="logo">
             </div>
             <div class="contenNav">
                 <ul class="nav">
-                    <li><a href=""> Inicio</a></li>
-                    <li><a href=""> Hacer una cita </a></li>
-                    <li><a href=""> Sercios </a></li>
-                    <li><a href=""> Medicos </a></li>
-                    <li><a href=""> Contacto </a></li>
+                    <li><a href="#inicio"> Inicio</a></li>
+                    <li id="este"><a> Hacer una cita </a></li>
+                    <li><a href="#Servicios"> Sercios </a></li>
+                    <li><a href="#Contacto"> Contacto </a></li>
                 </ul>
             </div>
 
@@ -30,7 +30,7 @@
 
     </header>
 
-    <section class="about " id="inicio">
+    <section class="about " >
         <div class="aboutDiv">
             <h1>SIDSA </h1>
             <h4>Servicio integral de Dialisis Dra. Santana </h4>
@@ -40,7 +40,7 @@
     </section>
 
 
-    <section class="servicios">
+    <section class="servicios" id="Servicios">
         <div class="servicioInformacion">
             <h1>Servicios</h1>
             <p>El servicio de diálisis es un tratamiento que se realiza en un centro especializado, donde se sustituye
@@ -143,7 +143,7 @@
                         <h1> Consulta de Urología </h1>
                         <p>
                             Los hombres deben acudir al urólogo, sobre todo a partir de los 50 años, para detectar
-                            precozmente ciertas enfermedades
+                            precozmente ciertas enfermedades.
                         </p>
                     </div>
 
@@ -194,11 +194,47 @@
         <div class="personarDescripcion">
             <img src="./img/samta14.jpeg" alt="ladoctora">
             <h1> Dra. Yasmin H. Santana V. </h1>
-            <p> La Dra. Yasmin Santana es una medico nefróloga, que curso sus estudios en la Universidad </p>
+            <p> La Dra. Yasmin Santana es una medico nefróloga, que curso sus estudios en la Universidad. </p>
         </div>
     </section>
 
 
+    <footer id="Contacto">
+
+        <div class="footerInfo">
+            <h1>  SIDSA "Servicios Integral de  Diálisis" </h1>
+            <p> Somos una clínica de salud que brinda servicios de calidad, con el fin de satisfacer las necesidades
+                de nuestros pacientes. </p>
+        </div>
+
+        <div class="footerInfo">
+            <h1> Horarios </h1>
+            <ul>
+                <li> Dialisis 24 Horas </li>
+                <p> 🕒 Horario de  servicio  de Lunes a Viernes 🕒 </p>
+                <li> 7am-12pm </li>
+                <li> 2pm a 8pm </li>
+                <li> 8am a 5pm ( Este Horario solo los Sábados ) </li>
+            </ul>
+        </div>
+
+        <div class="footerInfo" > 
+            <h1> Contactanos </h1>
+            <ul>
+                <li> 📞 Telefono: 809-555-5555 </li>
+                <li> 📞 Celular : 809-593-7883 </li>
+                <li> 📧 Correo: centrointegraldialisis6@gmail.com </li>
+                <li> 📍 Dirección: 📍Avenida España #20 Calero Villa Duarte, Santo Domingo Este, República Dominicana. </li>
+
+
+        </div>
+
+       
+
+    </footer>
+
+
+    <script src="main.js"></script>
 
 </body>
 
